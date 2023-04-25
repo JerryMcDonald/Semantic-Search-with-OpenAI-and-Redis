@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AddDocument = () => {
+function DocumentViewer() {
   return (
     <div className="page-container">
-      <h1>Add Document</h1>
+      <h1>Document Viewer</h1>
     </div>
   );
-};
+}
 
-export default AddDocument;
+export default DocumentViewer;

@@ -1,0 +1,17 @@
+{
+  "extends": ["plugin:react/recommended", "airbnb-base", "prettier"],
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "semi": [2, "always"]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
