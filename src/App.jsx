@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// import './styles.css';
+import './styles/navigation.css';
 import Dashboard from './pages/Dashboard/Dashboard.jsx';
 import Admin from './pages/Admin/Admin.jsx';
 import Navigation from './components/Navigation/Navigation.jsx';
